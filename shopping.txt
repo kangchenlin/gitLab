@@ -1,7 +1,7 @@
 # Shpping List
 
 - milk
-- eggs
+- 10eggs
 - pork
 - barbecue grill
 - wood coal
