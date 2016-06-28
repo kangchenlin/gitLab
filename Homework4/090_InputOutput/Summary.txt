@@ -1,0 +1,10 @@
+__FILE__
+dirname()
+basename()
+browser upload file to server
+file() ==> array
+file_get_contents() ==> string
+
+fopen()
+   fput/fget/fread/fwrite
+fclose()
