@@ -1,4 +1,5 @@
 create database home default character set utf8;
+use home;
 --
 -- 資料表結構 `money`
 --
