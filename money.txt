@@ -1,0 +1,21 @@
+create database home default character set utf8;
+
+use home;
+--
+-- 資料表結構 `money`
+--
+
+CREATE TABLE money (
+  ID int(11) NOT NULL AUTO_INCREMENT,
+  Income int(10) DEFAULT NULL COMMENT '收入',
+  IncomeExplain varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL COMMENT '收入說明',
+  Expand int(10) DEFAULT NULL COMMENT '支出',
+  ExpandExplain varchar(20) COLLATE utf8_unicode_ci DEFAULT NULL COMMENT '支出說明',
+  Balance int(10) DEFAULT NULL COMMENT '餘額',
+  PRIMARY KEY (ID)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
+
+
+
+INSERT INTO money (ID, Income,IncomeExplain,Expand,ExpandExplain,Balance) VALUES
+(1, 500,'從銀行領500元',60,'午餐咖哩飯',440);
